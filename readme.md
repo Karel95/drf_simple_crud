@@ -10,11 +10,16 @@ python -m virtualenv .venv
 ./.venv/Scripts/activate
 .\.venv\Scripts\activate
 
+
 pip install django
 
-django-admin startproject server .
-
 pip install djangorestframework
+
+
+django-admin startproject drfsimplecrud .
+
+
+python manage.py startapp projects
 
 python manage.py makemigrations
 
