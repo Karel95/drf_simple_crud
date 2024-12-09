@@ -26,3 +26,16 @@ python manage.py makemigrations
 python manage.py migrate
 
 python manage.py runserver
+
+
+TODO:
+
+Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+pip install dj-database-url psycopg2-binary
+
+pip install 'whitenoise[brotli]'
+
+chmod a+x build.sh
+
+pip install gunicorn uvicorn
