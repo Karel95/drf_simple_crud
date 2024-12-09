@@ -39,3 +39,5 @@ pip install 'whitenoise[brotli]'
 chmod a+x build.sh
 
 pip install gunicorn uvicorn
+
+python -m gunicorn drfsimplecrud.asgi:application -k uvicorn.workers.UvicornWorker
